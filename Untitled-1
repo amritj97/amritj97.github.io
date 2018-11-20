@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Organic Shape Morph Ideas | Demo 4 | Codrops</title>
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700,700i|Arapey" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo4.css" />
+		<link rel="stylesheet" type="text/css" href="pater/pater.css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display|Roboto|Work+Sans" rel="stylesheet">
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	</head>
+	<body class="demo-4">
+		<main>
+            
+         <div class="nav">
+  <div class="nav-header">
+    <div class="nav-title">
+    </div>
+  </div>
+  <div class="nav-btn">
+    <label for="nav-check">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+  </div>
+  <input type="checkbox" id="nav-check">
+  <div class="nav-links">
+    <a href="index.html">Work</a>
+    <a href="play.html">Play</a>
+    <a href="about.html">About</a>
+    <a href="SimranJassal2019.pdf" target="_blank">Resume</a>
+  </div>
+</div>
+            
+            
+				<center><img src="img/Pom/Pomodoro_HeaderScreen.png" width="100%">  </center>
+            
+            <div class="header">
+                <div class="proj-header"> 
+                    <h1 class="project-title"> Pomogranate  </h1>
+                    <h1 class="project-company"> Passion Project, Current </h1>
+                </div>
+                
+            
+                
+                
+                
+                <div class="sec-overview">
+                    
+                  <div class="half-wrapper"> 
+                        <div class="left1"> 
+                            
+                            
+                        </div>
+                        
+                        <div class="right1"> 
+                            
+                        </div>
+                    </div>
+                </div>
+                
+          
+                <div class="wrapper2">
+                    
+                    <div id="one2">
+                            <h1 class="info-header"> OVERVIEW </h1>
+                            <p class="section-content-top"> Role: Product Design</p>
+                            <p class="section-content-top"> Team: Passion Project </p>
+                            <p class="section-content-top"> Time Length: 6 months, 4-5 hours/week </p>
+                            <p class="section-content-top"> Tools: Sketch, Origami </p>
+                            <p class="section-content-top"> Tags: UX Research, UI Design, Prototyping </p>
+                    </div>
+                    
+                    <div id="two2">
+                          <p class="section-content-top-pitch"> I've always been interested in time management. I designed an end-to-end solution to help people be more productive using the Pomodoro Technique.  </p>
+                   
+                
+                <div class="sec-longinfo"> 
+                    <h1 class="info-header"> INTRODUCTION </h1>
+                    <!--<h1 class="info-subheader"> Lessons Learned </h1>-->
+                    <p class="section-content"> Pomogranate is a mobile app that helps individuals use the Pomodoro method to manage their time. The Pomodoro method is a time management tool in which you focus for 25 minutes, and reward yourself with a 5 minute break. I decided to design this app after I had trouble re-inspring myself to do another 'Pomodoro' after I completed one. After doing some research, it became obvious that this was a problem a lot of people faced.  </p>
+            
+                </div>
+                
+                    
+                    
+                    <div class="sec-longinfo"> 
+                        <h1 class="info-header"> RESEARCH </h1>
+                        <!--<h1 class="info-subheader"> Lessons Learned </h1>-->
+                        <p class="section-content"> My main source of research was the flaws of Pomodoro technique. I found the following flaws through research and a survey I put out to a demographic of students and industry professionals.  </p>
+                        
+                         <p class="section-content"> 
+                        
+                         <ul> 
+                            <li class="section-learnings">  The lack of flexibility: People don't think in Pomodoros (25 minutes). They get interupted all the time, mainly with meetings or co-workers.</li>
+                            <li class="section-learnings">Getting into your next Pomodoro: Often times, people complete one Pomodoro but struggle to get into their next one after the 5 minute break.  </li>
+
+                        </ul>
+                        </p>
+                    </div>
+                  <br> 
+                
+                
+                    <div class="sec-longinfo"> 
+                        <h1 class="info-header"> USER VALUES AND PRODUCT SOLUTION </h1>
+                        <!--<h1 class="info-subheader"> Lessons Learned </h1>-->
+                        <p class="section-content">   I used my research a basis to design Pomogranate upon, using these following as guidelines. My demographic was mainly students and industry professionals.</p>
+                        
+                            <center> <img src="img/Pom/User_Values.png" width="80%"> </center>
+                        
+                    </div>
+                <br> 
+                    <div class="sec-longinfo"> 
+                        <h1 class="info-header"> INITIAL IDEAS </h1>
+                        <!--<h1 class="info-subheader"> Lessons Learned </h1>-->
+                        <p class="section-content">My first idea for this was to create a Google Chrome extension. I created some wireframes around a desktop version of this app. However, going back to the personas I was designing for and the need for flexibility, I didn't think that a chrome extention was adequate enough. Why would I want users to be attached to a desktop when they can have an experience on their smartphone?   </p>
+                        <p class="section-content"> My next idea was around users inputting all of their to-dos for the day and then select them as they want to complete them. The wireframes below display a user's 'To-Dos' and their 'Dids'. I wanted a way for users to indicate when they completed a task, so that they can become motivated by all they have done. </p>
+                        
+                        <center> <img src="img/Pom/pom_initial_wires.png" width="100%"> </center>
+                        
+                        
+
+                    </div>
+                
+                <div class="sec-longinfo"> 
+                        <h1 class="info-header"> USER FLOWS </h1>
+                        <!--<h1 class="info-subheader"> Lessons Learned </h1>-->
+                        <p class="section-content"> I went back to the drawing board and simplified the flow of starting a pomodoro to the bare minimum.  </p>
+                            <center> <img src="img/Pom/startingapomodoro.png" width="100%"> </center>
+                    
+                    <p class="section-content">  As seen in the figure above, the challenge for many individuals is getting into the next pomodoro. I created the following flow and decided to test a few solutions.</p>
+                    
+                    <center> <img src="img/Pom/Pomodoro_Test.png" width="100%"> </center>
+                    
+                       <p class="section-content">  Keeping in mind the value of 'motivational', I decided to run a few user testing sessions to determine what best to put after the 'short break' timer screen'.</p>
+                    </div>
+              
+
+                
+              
+                
+                
+                <div class="sec-longinfo"> 
+                        <h1 class="info-header"> USER TESTING 1 </h1>
+                        <p class="section-content">  I tested with a total of 7 users, of which 4 were students, 2 were faculty members and 1 was an industry professional. The metrics I was testing were: Time (how long does it take to get into the next pomodoro), and qualitative feedback (how do you feel?)  </p>
+               
+                        
+                        <center> <img src="img/Pom/test_ideas.png" width="100%"> </center>
+         
+                    
+                     <p class="section-content">   Our hypothesis was that Solution 2 would facilitate the flow the best due to the small amount of options provided under 'pending tasks'   </p>
+                    
+                     <p class="section-content">   However, solution 3 yielded in the smallest time between completing the short break and going onto the next Pomodoro, averaging about 8 seconds. Qualitative feedback was also generally better, as users liked the prioritization of the tasks being presented to them. </p>
+                    
+                    </div>
+                
+                
+                <div class="sec-longinfo"> 
+                        <h1 class="info-header"> USER TESTING LEARNINGS </h1>
+                    
+                        <p class="section-content">  We also learned a lot more about our users during this testing period. For example, many of them commented that they didn't know what to do during their break. It felt like they were just supposed to sit idle.  </p>
+                        
+                      
+                    
+                    </div>
+          
+            
+             
+                <div class="sec-longinfo"> 
+                        <h1 class="info-header"> BREAKS </h1>
+                        
+                        <p class="section-content"> After doing some research, I decided to set two default break activities, including meditation and reading. Both of these activities aim to reinspire the user and provide their brains with a well desired break.  </p>
+                    
+                        <center> <img src="img/Pom/Pomodoro_Break_Meditate.png" width="100%"> </center>
+                        
+                     <p class="section-content"> By allowing users to meditate during the break, we hypothesize that they will more actively be ready to do their next pomodoro (as based on research). We will be testing this hypothesis during the next user testing session. The meditation break also has light, relaxing music playing in the background.  </p>
+                    
+                      <center> <img src="img/Pom/Pomodoro_Break_Read.png" width="100%"> </center>
+                    
+                     <p class="section-content"> We also provide users with the ability to read during their break. The reading selection will be a default selected during onboarding, but incase they skip that step, I've included that extra step in the image above.  </p>
+                    
+                       <p class="section-content"> he goal of a pomodoro 'short break' is to relax, but also to remotivate the user to step back into their next Pomodoro. I decided to differentiate the two timers through colour.  </p>
+                    
+                     <center> <img src="img/Pom/break_differentiation.png" width="100%"> </center>
+                        
+                    
+                    </div>
+            
+                <br> 
+                <br> 
+                <div class="sec-longinfo"> 
+                        <h1 class="info-header"> GAMIFICATION AND GOAL SETTING </h1>
+                        
+                        <p class="section-content">  A big part of motivation is goal setting and motivation. I use various elements of gamification throughout the app, and also implemented a way for users to track their goals and journey throughout the app. This portion of the app is scheduled to be testing in February 2018, as a part of a class that I am taking. </p>
+                    
+                        <center> <img src="img/Pom/Gamification.png" width="100%">
+                
+                    
+                    </div>
+
+                
+            </div> 
+            </div>
+                </div>
+             
+            
+
+            
+          <div class="footer"> 
+                <ul> 
+                    <a href="facebook.html"> <li> Facebook </li></a>
+                    <a href="drop2.html"> <li> Drop </li></a>
+                    <a href="shopify2.html"> <li> Shopify </li></a>
+                    <a href="github.html"> <li> Github </li></a>
+                    <a href="pom.html"> <li> Pom </li></a>
+                    <a href="uwux.html"> <li> UW/UX </li></a>
+                </ul> 
+            </div>
+            
+		</main>
+		<script src="js/anime.min.js"></script>
+		<script src="js/demo.js"></script>
+		<script src="js/demo4.js"></script>
+	</body>
+</html>
+
+
+

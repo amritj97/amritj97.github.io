@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Organic Shape Morph Ideas | Demo 4 | Codrops</title>
+		<meta name="description" content="Ideas for decorative organic shape animations" />
+		<meta name="keywords" content="animation, svg, organic, morphing, shapes, css, javascript, web design, web dev" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700,700i|Arapey" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo4.css" />
+		<link rel="stylesheet" type="text/css" href="pater/pater.css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display|Roboto|Work+Sans" rel="stylesheet">
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	</head>
+	<body class="demo-4">
+		<main>
+            
+                <div class="navigation"> 
+                    <div class="topnav special" id="myTopnav">
+                        <a href="index4.html">work.</a>
+                        <a href="about.html">about.</a>
+                        <a href="Simran_Jassal.pdf">resume.</a>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+                    </div> 
+                </div>
+            
+            
+				<center><img src="img/Facebook/Facebook%20Header.png" width="100%">  </center>
+            
+            <div class="header">
+                <div class="proj-header"> 
+                    <h1 class="project-title"> Facebook  </h1>
+                    <h1 class="project-company"> Product Designer, Fall 2017 </h1>
+                </div>
+                
+            
+                
+                
+                
+                <div class="sec-overview">
+                    
+                  <div class="half-wrapper"> 
+                        <div class="left1"> 
+                            
+                            
+                        </div>
+                        
+                        <div class="right1"> 
+                            
+                        </div>
+                    </div>
+                </div>
+                
+          
+                <div class="wrapper2">
+                    
+                    <div id="one2">
+                            <h1 class="info-header"> OVERVIEW </h1>
+                            <p class="section-content-top"> Role: Product Designer</p>
+                            <p class="section-content-top"> Team: Experimentation </p>
+                            <p class="section-content-top"> Time Length: 6 weeks </p>
+                            <p class="section-content-top"> Tools: Sketch and Principle </p>
+                            <p class="section-content-top"> Tags: UX Design, UI Design, Visual Design </p>
+                    </div>
+                    
+                    <div id="two2">
+                          <p class="section-content-top-pitch"> I redesigned the experimentation tool that Facebook's PMs and Data Scientists use to track all multi-variate tests, with the goal of extrapolating institutional data for all of Facebook. </p>
+                   
+                
+                <div class="sec-longinfo"> 
+                    <h1 class="info-header"> INTRODUCTION </h1>
+                    <!--<h1 class="info-subheader"> Lessons Learned </h1>-->
+                    <p class="section-content"> The primary goal of this project was to redesign the Quick Experiments tool to make it easier for Product Managers and Engineers to track and share experiments across teams and organizations. Here's a quick before and after before we dive into the design work:  </p>
+                
+                    <center> <img src="img/Facebook/QE%20-%20Before.png" width="100%"> </center>
+                    <br> 
+                    <center> <img src="img/Facebook/QE%20-%20After.png" width="100%"> </center>
+
+                </div>
+                
+                    
+                    
+                    <div class="sec-longinfo"> 
+                        <h1 class="info-header"> BACKGROUND </h1>
+                        <!--<h1 class="info-subheader"> Lessons Learned </h1>-->
+                        <p class="section-content"> Experimentation Team owns both of the tools to analyze and launch experiments. I won't be disclosing the names of the tools for confidentiality.   </p>
+                        
+                        <center> <img src="img/Facebook/ToolsAtFacebook.png" width="60%"> </center>
+                    </div>
+                  <br> 
+                
+                
+                    <div class="sec-longinfo"> 
+                        <h1 class="info-header"> PROBLEM ANALYSIS </h1>
+                        <!--<h1 class="info-subheader"> Lessons Learned </h1>-->
+                        <p class="section-content"> The best thing about working at a large company is the sheer amount of data we have access to. However, as companies scale, it's hard to turn this <b> tribal knowledge to institutional knowledge </b> - things that we know about our users. </p>
+                        
+                        <p class="section-content"> Through talking to users, I found that the information we surfaced in our tooling did a great job at capturing the end result of experiments, but neglected the entire process. But, users agreed that process is the most valuable learning tool. </p>
+                        
+                        <center> <img src="img/Facebook/Facebook's%20Data%20Collection.png" width="60%"></center>
+                        
+                        <p class="section-content"> Since most of our tools are highly information dense, we usually surface numbers, and don't surface more 'human elements' like words: </p>
+                        
+                        <center> <img src="img/Facebook/Facebook's%20Data%20Collection2.png" width="60%"></center>
+                            
+    
+                    </div>
+                <br> 
+                    <div class="sec-longinfo"> 
+                        <h1 class="info-header"> INITIAL RESEARCH </h1>
+                        <!--<h1 class="info-subheader"> Lessons Learned </h1>-->
+                        <p class="section-content"> The research consisted of conducting user interviews with 16 data engineers and product managers across different teams at Facebook. I also conducted an audit of the tools to identify where we could improve the product visually. Here are some of my main learnings from the interviews conducted:   </p>
+                        <p class="section-content"> 
+                        <ul> 
+                            <li class="section-learnings"> 1. People were interested in other experiments conducted by other teams, to gain inspirations and learn from mistakes. This is currently done by sharing Quip docs.  </li>
+                            <li class="section-learnings"> 2. PMs track a set of 2-3 vital metrics when tracking experiments.  </li>
+                        </ul>
+                        </p>
+
+                    </div>
+                
+                <div class="sec-longinfo"> 
+                        <h1 class="info-header"> DATA ANALYSIS  </h1>
+                        <!--<h1 class="info-subheader"> Lessons Learned </h1>-->
+                        <p class="section-content"> After finding the main problems, I collaborated with the engineers to determine what data points were currently surface in the tool, and determine what other data points we could surface.  </p>
+                            <center> <img src="img/Facebook/Data%20Available.png" width="100%"> </center>
+                    
+                    <p class="section-content"> As mentioned in the problem analysis, PMs use a set of 2-3 metrics to make a decision on experiments. I looked at some of the metrics we had available in the sister tool to see what we could pull in.  </p>
+                    </div>
+              
+                <div class="sec-longinfo"> 
+                        <h1 class="info-header"> DESIGN SOLUTION 1: Surfacing Experiments </h1>
+                    <h1 class="info-subheader"> Reshaping the problem space: </h1>
+                        <p class="section-content">  What all of this information available, I reshaped the problem to being 'How can we surface important experiments to users?'. We needed to find high signal information to surface on the management tool.   </p>
+                        <p class="section-content"> I explored various options that operated within this scale of 'we are decisive of what we show to the users' and on the other end 'a user should be able to customize various aspects of this dashboard'.</p>
+               
+                        
+                        <center> <img src="img/Facebook/Wireframes.png" width="60%"> </center>
+         
+                      <h1 class="info-subheader"> Wireframes: </h1>
+                         <center> <img src="img/Facebook/1.%20Decisive.png" width="100%"> </center>
+                        <center> <img src="img/Facebook/2.%20Smart%20Search.png" width="100%"> </center>
+                     <center> <img src="img/Facebook/3.%20Customized.png" width="100%"> </center>
+                    
+                    
+                    <h1 class="info-subheader"> Smarter way to filter: </h1>
+               `
+                    </div>
+                    
+                    
+                
+                
+                <div class="sec-longinfo"> 
+                        <h1 class="info-header"> DESIGN SOLUTION 2: Surfacing More Information  </h1>
+                    
+                        <h1 class="info-subheader"> Subscribed Experiments: </h1>
+                        
+                        <p class="section-content">  Since we found that users were interested in keeping tabs of other experiments, we added the 'Subscribed' feature to experiments. A user is able to subscribe to an experiment right on the main tracking tool.  </p>
+                        
+                        <center> <img src="img/Facebook/Subscribing.png" width="100%"> </center>
+                    
+                    </div>
+            <br> 
+            <br> 
+            
+             
+                <div class="sec-longinfo"> 
+                        <h1 class="info-header"> DESIGN SOLUTION 3: CAPTURING THE DECISION </h1>
+                        
+                        <p class="section-content"> In order to get more context about a decision about an experiment, I added the 'decision' column. This captured the 'words' of an experiment, giving users more learning context about where an experiment is heading.   </p>
+                    
+                        <center> <img src="img/Drop/System%20Alerts.png" width="100%"> </center>
+                        <center> <img src="img/Drop/Where%20to%20put%20the%20alert.png" width="100%"> </center>
+                        <center> <img src="img/Drop/SOLN_%20Where%20to%20put%20the%20alet.png" width="100%"> </center>
+                        
+                    
+                    </div>
+            
+                <br> 
+                <br> 
+                <div class="sec-longinfo"> 
+                        <h1 class="info-header"> DESIGN SOLUTION 3: EDUCATION </h1>
+                        
+                        <p class="section-content">   We saw the need for education within the app, especially since <b> 75% of users look at FAQs prior to submitting a support desk ticket. </b> This meant that we could include the FAQs within the flow of filing a support ticket. </p>
+                    
+                        <center> <img src="img/Drop/Where%20to%20put%20FAQs.png" width="100%"> </center>
+                        <center> <img src="img/Drop/FAQ%20Mapping.png" width="100%"> </center>
+                        <center> <img src="img/Drop/Workflow_%20FAQs%201.png" width="100%"> </center>
+                        <center> <img src="img/Drop/Workflow%20FAQS_%202.png" width="100%"> </center>
+
+                
+                    
+                    </div>
+            <br> 
+            <br> 
+
+              <div class="sec-longinfo"> 
+                        <h1 class="info-header"> RESULTS </h1>
+                        
+                  <p class="section-content">   When the new support flow solutions rolled out, the team saw a <b> 36% decrease in support desk tickets </b> within 2 weeks (compared to the previous 2 week average). This support flow also provides the ability to scale with more automated flows as the team grows.   </p>
+                
+                    
+                    </div>
+            <br> 
+            <br> 
+            
+                <div class="sec-longinfo"> 
+                        <h1 class="info-header"> LEARNINGS AND REFLECTION </h1>
+                        
+                        <p class="section-content">   I grew a lot as a designer while I was at Drop, partially because I targetted my growth areas and knew what I wanted to work on. During this project, I learned the importance of digging into a problem, uncovering the potential of a solution and how to start a design system. </p>
+                    
+                     <p class="section-content">   Feel free to e-mail me to learn more about my other projects at Drop. </p>
+                
+                    
+                    </div>
+                
+                <!--<div class="sec-longinfo-grey"> 
+                    <h1 class="info-header"> LEARNINGS </h1>
+                    <h1 class="info-subheader"> Lessons Learned </h1>
+                    <p class="section-content"> Since this was my first stab at this kind of project, here are some vital things I learned. </p>
+                </div>--> 
+                
+               <!-- <div class="sec-longinfo"> 
+                    <h1 class="info-header"> LEARNINGS </h1>
+                    <h1 class="info-subheader"> Lessons Learned </h1>
+                    <div class="half-wrapper"> 
+                        <div class="left"> 
+                            <p class="section-content"> Here are some things I need</p>
+                        </div>
+                        
+                        <div class="right"> 
+                            <p class="section-content"> Here are some things I need</p>
+                        </div>
+                    </div>
+                </div>--> 
+                
+                <div class="quote"> 
+                </div>
+                
+
+                
+            </div> 
+            </div>
+                </div>
+             
+            
+
+            
+            <div id="footer"> 
+            
+            </div>
+            
+            
+		</main>
+		<script src="js/anime.min.js"></script>
+		<script src="js/demo.js"></script>
+		<script src="js/demo4.js"></script>
+	</body>
+</html>
+
+
+
